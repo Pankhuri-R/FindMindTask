@@ -1,0 +1,27 @@
+.add_large,
+.add_small {
+  background-color: #003366;
+  color: #fff;
+  transition: transform 450ms;
+  border-radius: 50%;
+}
+
+.add_small {
+  font-size: 1.5em;
+  padding: 5px 10px;
+}
+
+.add_large {
+  position: absolute;
+  top: 70%;
+  left: 90%;
+  font-size: 4em;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+
+.add_large:hover,
+.add_small:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}

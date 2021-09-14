@@ -1,0 +1,40 @@
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.header {
+  margin-bottom: 2%;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+/* body {
+  background-color: #fff;
+} */
+
+.headerNav {
+  background-color: #003366;
+  padding: 2%;
+}
+
+.headerNav h1 {
+  color: #fff;
+  padding: 1% 0 0 1%;
+  font-size: 30px;
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNav > img {
+  height: 60px;
+  width: 80px;
+  border-radius: 50%;
+}
